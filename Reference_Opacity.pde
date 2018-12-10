@@ -1,4 +1,3 @@
-// add your Reference Opacity code here
 void setup() {
   size(400, 400);
   noFill();
@@ -28,7 +27,5 @@ void draw() {
   ellipse(225, 130, random(150, 200), random(150, 200));
   ellipse(175, 130, random(150, 200), random(150, 200));
   ellipse(130, 170, random(150, 200), random(150, 200));
-
-
-  
+  ellipse(mouseX, mouseY, random(150, 200), random(150, 200));
 }
