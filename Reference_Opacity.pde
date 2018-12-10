@@ -7,6 +7,7 @@ void setup() {
 void draw() {
   stroke(random(200));
   noFill();
+  ellipse(mouseX, mouseY, random(150, 200), random(150, 200));
   ellipse(200, 200, 300, 300);
   ellipse(253, 253, random(150, 200), random(150, 200));
   ellipse(253, 147, random(150, 200), random(150, 200));
@@ -24,5 +25,4 @@ void draw() {
   ellipse(225, 130, random(150, 200), random(150, 200));
   ellipse(175, 130, random(150, 200), random(150, 200));
   ellipse(130, 170, random(150, 200), random(150, 200));
-  ellipse(mouseX, mouseY, random(150, 200), random(150, 200));
 }
