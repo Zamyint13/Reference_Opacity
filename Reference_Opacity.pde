@@ -2,10 +2,7 @@ void setup() {
   size(400, 400);
   noFill();
   strokeWeight(.5);
-  //Shows cursor position
-  fill(0);
-  textSize(18);
-  text("("+mouseX+","+mouseY+")", mouseX, mouseY);
+
 }
 void draw() {
   stroke(random(200));
