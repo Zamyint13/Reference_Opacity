@@ -1,8 +1,9 @@
 void setup() {
   size(400, 400);
- background(255);
+ 
 }
 void draw() {
+background(255);
 strokeWeight(1);
   stroke(random(200));
   noFill();
