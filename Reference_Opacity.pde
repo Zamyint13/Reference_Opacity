@@ -3,7 +3,7 @@ void setup() {
  
 }
 void draw() {
-background(255);
+strokeWeight(1);
   stroke(random(200));
   noFill();
   ellipse(mouseX, mouseY, random(150, 200), random(150, 200));
