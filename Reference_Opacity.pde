@@ -1,10 +1,9 @@
 void setup() {
   size(400, 400);
- 
+ background(255);
 }
 void draw() {
-background(255);
-strokeWeight(1);
+strokeWeight(.5);
   stroke(random(200));
   noFill();
   ellipse(mouseX, mouseY, random(150, 200), random(150, 200));
